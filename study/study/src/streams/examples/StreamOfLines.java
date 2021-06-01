@@ -25,8 +25,8 @@ public class StreamOfLines {
         Pattern pattern = Pattern.compile("\\s+");
         try {
 
-            Map<String, Long> wordCounts = Files.lines(Paths.get("./src/streams/examples/words.txt")).map(
-                    line -> line.replaceAll("\\W+\\s+", "")).flatMap(pattern::splitAsStream).collect(
+            Map<String, Long> wordCounts = Files.lines(Paths.get("study/study/src/streams/examples/words.txt")).map(
+                    line -> line.replaceAll("[^A-Za-z0-9]", " ")).flatMap(pattern::splitAsStream).collect(
                     Collectors.groupingBy(String::toUpperCase, TreeMap::new, Collectors.counting()));
             wordCounts.entrySet()
                     .stream()

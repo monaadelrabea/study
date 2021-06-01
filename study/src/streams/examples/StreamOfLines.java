@@ -26,7 +26,7 @@ public class StreamOfLines {
         try {
 
             Map<String, Long> wordCounts = Files.lines(Paths.get("./src/streams/examples/words.txt")).map(
-                    line -> line.replaceAll("/[^\\w\\s]", "")).flatMap(line -> pattern.splitAsStream(line)).collect(
+                    line -> line.replaceAll("\\W+\\s+", "")).flatMap(line -> pattern.splitAsStream(line)).collect(
                     Collectors.groupingBy(String::toUpperCase, TreeMap::new, Collectors.counting()));
             wordCounts.entrySet()
                     .stream()

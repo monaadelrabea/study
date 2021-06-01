@@ -102,8 +102,8 @@ public class LettuceExamples {
         connectionSub.getStatefulConnection().addListener(new Subscriber());
         connectionSub.subscribe("channel");
 
-        RedisClient redisClientPub = RedisClient.create("redis://localhost:6379");
         // pub
+        RedisClient redisClientPub = RedisClient.create("redis://localhost:6379");
         RedisPubSubCommands<String, String> connectionPub = redisClientPub.connectPubSub().sync();
         connectionPub.publish("channel", "Hello, Redis!");
     }

@@ -1,0 +1,6 @@
+Streams are objects that implement interface Stream (from the package java.util.stream
+Enable you to perform functional programming tasks
+Specialized stream interfaces for processing int, long or double values
+Streams move elements through a sequence of processing steps—known as a stream pipeline
+Pipeline begins with a data source, performs various intermediate operations on the data source’s elements and ends with a terminal operation.
+A stream pipeline is formed by chaining method calls.

@@ -8,72 +8,122 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../../assignment/.gitignore">
+        <entry key="$PROJECT_DIR$/../Afaqy-Service-Core/src/main/java/com/afaqy/core/cache/redis/RedisCache.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../../assignment/README.md">
+        <entry key="$PROJECT_DIR$/../Benchnarks/Geocoder-Benchmark/Afaqy-Service-AVL-Geocoder1/src/test/java/com/afaqy/avl/geocoder/GeocoderApplicationTests.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../../assignment/assignment/.idea/.gitignore">
+        <entry key="$PROJECT_DIR$/../Benchnarks/Geocoder-Benchmark/Afaqy-Service-AVL-Geocoder2/src/main/java/com/afaqy/avl/geocoder/processor/CacheProcessor.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../../assignment/assignment/assignment.iml">
+        <entry key="$PROJECT_DIR$/../Benchnarks/Geocoder-Benchmark/Afaqy-Service-AVL-Geocoder2/src/main/java/com/afaqy/avl/geocoder/service/CacheAddressService.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../../assignment/assignment/out/production/study/assignment.iml">
+        <entry key="$PROJECT_DIR$/../Benchnarks/Geocoder-Benchmark/Afaqy-Service-AVL-Geocoder2/src/test/java/com/afaqy/avl/geocoder/service/CacheAddressServiceTest.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../../assignment/assignment/study.iml">
+        <entry key="$PROJECT_DIR$/../Benchnarks/Geocoder-Benchmark/Afaqy-Service-AVL-Geocoder2/src/test/java/com/afaqy/avl/geocoder/service/CacheServiceBenchmarkTest.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/.idea/.gitignore">
+        <entry key="$PROJECT_DIR$/study/src/ArrayListExample.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/.idea/misc.xml">
+        <entry key="$PROJECT_DIR$/study/src/collections/examples/ArrayBlockingQueueExample.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/.idea/modules.xml">
+        <entry key="$PROJECT_DIR$/study/src/collections/examples/ArrayListExample.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/multithread/examples/PrintThread.java">
+        <entry key="$PROJECT_DIR$/study/src/collections/examples/CollectionAssignment.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/multithread/examples/ThreadExamples.java">
+        <entry key="$PROJECT_DIR$/study/src/collections/examples/HasMapExample.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/streams/examples/StreamOfLines.java">
+        <entry key="$PROJECT_DIR$/study/src/collections/examples/HasSetExample.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/streams/examples/words.txt">
+        <entry key="$PROJECT_DIR$/study/src/collections/examples/PriorityQueueExample.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/study.iml">
+        <entry key="$PROJECT_DIR$/study/src/collections/examples/ThreeClassesImplementList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/study/src/collections/examples/ThreeClassesImplementMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/study/src/collections/examples/ThreeClassesImplementSet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/study/src/collections/examples/TwoClassesImplementQueue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/study/src/collections/examples/VectorExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/study/src/lamda/examples/CustomFunctionalInterfaceExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/study/src/lamda/examples/FunctionalInterfaceAssigment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/study/src/lamda/examples/FunctionalInterfaceExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/study/src/lamda/examples/FunctionalInterfaceNoArgExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/study/src/lamda/examples/LamdaExpressionAssigment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/study/src/lamda/examples/PredefinedFunctionalInterfaceExample.java">
           <value>
             <set />
           </value>

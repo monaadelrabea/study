@@ -26,7 +26,7 @@ public class StreamOfLines {
         try {
 
             Map<String, Long> wordCounts = Files.lines(Paths.get("./src/streams/examples/words.txt")).map(
-                    line -> line.replaceAll("\\W+\\s+", "")).flatMap(line -> pattern.splitAsStream(line)).collect(
+                    line -> line.replaceAll("\\W+\\s+", "")).flatMap(pattern::splitAsStream).collect(
                     Collectors.groupingBy(String::toUpperCase, TreeMap::new, Collectors.counting()));
             wordCounts.entrySet()
                     .stream()
@@ -34,8 +34,7 @@ public class StreamOfLines {
                             Collectors.groupingBy(entry -> entry.getKey().charAt(0), TreeMap::new, Collectors.toList()))
                     .forEach((letter, wordList) -> {
                         System.out.printf("%n%C%n", letter);
-                        wordList.stream().forEach(
-                                word -> System.out.printf("%s : %d%n", word.getKey(), word.getValue()));
+                        wordList.forEach(word -> System.out.printf("%s : %d%n", word.getKey(), word.getValue()));
                     });
         } catch(IOException e) {
             e.printStackTrace();

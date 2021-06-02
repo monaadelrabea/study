@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/mongo-demo/mongo-demo.iml" filepath="$PROJECT_DIR$/mongo-demo/mongo-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/preparations.iml" filepath="$PROJECT_DIR$/.idea/preparations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-demo/redis-demo.iml" filepath="$PROJECT_DIR$/redis-demo/redis-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-mvn/study-mvn.iml" filepath="$PROJECT_DIR$/study-mvn/study-mvn.iml" />
     </modules>
   </component>

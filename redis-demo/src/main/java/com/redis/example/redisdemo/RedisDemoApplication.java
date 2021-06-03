@@ -1,12 +1,11 @@
 package com.redis.example.redisdemo;
 
-import com.redis.example.redisdemo.repository.EmployeeRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.redis.repository.configuration.EnableRedisRepositories;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 @SpringBootApplication
-@EnableRedisRepositories(basePackageClasses = EmployeeRepository.class)
+@EnableConfigurationProperties
 public class RedisDemoApplication {
 
     public static void main(String[] args) {

@@ -25,6 +25,10 @@ public class PrintThread extends Thread {
         return 0;
     }
 
+    public synchronized int syncMethod1(int x) {
+        return 0;
+    }
+
     @Override
     public void run() {
         System.out.println(getName() + " going to sleep");

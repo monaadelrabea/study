@@ -21,14 +21,14 @@ public class ThreadExamples {
         thread3 = new PrintThread("thread3");
         thread4 = new PrintThread("thread4");
 
-        System.out.println("\nStarting threads");
-        
+        //System.out.println("\nStarting threads");
+
         thread1.start();
         thread2.start();
         thread3.start();
         thread4.start();
 
-        System.out.println("Threads started\n");
+        //System.out.println("Threads started\n");
     }
 
 }

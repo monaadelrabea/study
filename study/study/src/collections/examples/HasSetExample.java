@@ -16,6 +16,7 @@ import java.util.Set;
  * Mail : mona.adel@afaqy.com
  */
 public class HasSetExample {
+
     public static void main(String args[]) {
         //declare a set class (HashSet)
         Set<String> hs = new HashSet<>();
@@ -31,14 +32,21 @@ public class HasSetExample {
         System.out.println("hs Size:" + hs.size());
 
         Set<String> subHashSet = new HashSet<>();
-        subHashSet.addAll(Arrays.asList("Hello", "Collection"));
+        subHashSet.addAll(Arrays.asList("Hello", "Collection", "test"));
+
+        // addAll () => union
+        Set<String> set_union = new HashSet<>(hs);
+        set_union.addAll(subHashSet);
+
+        System.out.print("Union1 of the hs & subHashSet:");
+        System.out.println(set_union);
+
         //print the set
         System.out.println("subHashSet contents:" + subHashSet);
         //contains ()
         System.out.println("Is hs contains element Hello ? " + hs.contains("Hello"));
         //containsAll ()
-        System.out.println("Is hs contains collection subHashSet ? " +
-                hs.containsAll(subHashSet));
+        System.out.println("Is hs contains collection subHashSet ? " + hs.containsAll(subHashSet));
 
         // retainAll () => intersection
         Set<String> set_intersection = new HashSet<>(hs);
@@ -55,10 +63,11 @@ public class HasSetExample {
         System.out.println(set_difference);
 
         // addAll () => union
-        Set<String> set_union = new HashSet<>(hs);
-        set_union.addAll(subHashSet);
+        Set<String> set_union1 = new HashSet<>(hs);
+        set_union1.addAll(subHashSet);
 
         System.out.print("Union of the hs & subHashSet:");
-        System.out.println(set_union);
+        System.out.println(set_union1);
     }
+
 }

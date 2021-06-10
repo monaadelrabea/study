@@ -16,12 +16,14 @@ import java.util.List;
  * Mail : mona.adel@afaqy.com
  */
 public class ArrayListExample {
+
     public static void main(String args[]) {
 
         List<String> names = new ArrayList<String>();
         names.add("Hello");
         names.add("From");
         names.add("ArrayList");
+        names.add("Collection");
         names.add("Collection");
 
         System.out.println(names);
@@ -34,9 +36,8 @@ public class ArrayListExample {
 
         Collections.shuffle(names);
         System.out.println(names);
-
-
     }
+
 }
 
 

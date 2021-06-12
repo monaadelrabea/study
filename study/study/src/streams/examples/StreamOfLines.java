@@ -22,11 +22,11 @@ import java.util.stream.Collectors;
 public class StreamOfLines {
 
     public static void main(String[] args) {
-        Pattern pattern = Pattern.compile("\\s+");
+        Pattern pattern = Pattern.compile("\\W+");
         try {
 
             Map<String, Long> wordCounts = Files.lines(Paths.get("study/study/src/streams/examples/words.txt")).map(
-                    line -> line.replaceAll("[^A-Za-z0-9]", " ")).flatMap(pattern::splitAsStream).collect(
+                    line -> line.replaceAll("\\W+", " ")).flatMap(pattern::splitAsStream).collect(
                     Collectors.groupingBy(String::toUpperCase, TreeMap::new, Collectors.counting()));
             wordCounts.entrySet()
                     .stream()

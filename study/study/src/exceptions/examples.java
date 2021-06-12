@@ -14,15 +14,17 @@ package exceptions;
 public class examples {
 
     public static void main(String args[]) {
-        customExceptionMethod();
+        try {
+            customExceptionMethod();
+        } catch(CustomException e) {
+            System.out.println(e);
+        }
         customRunTimeExceptionMethod();
     }
 
-    private static void customExceptionMethod() {
+    private static void customExceptionMethod() throws CustomException {
         try {
             throw new CustomException("This is a custom message");
-        } catch(CustomException e) {
-            System.out.println(e);
         } finally {
             System.out.println("In finally Block");
         }
@@ -30,10 +32,16 @@ public class examples {
 
     private static void customRunTimeExceptionMethod() {
 
-        String val = "Hello World";
-        if(val.length() > 3) {
-            throw new CustomRuntimeException("Length is exceeding length 3");
+        try {
+            String val = "Hello World";
+            if(val.length() > 3) {
+                throw new CustomRuntimeException("Length is exceeding length 3");
+            }
+        } catch(CustomRuntimeException e) {
+            System.out.println(e);
+        } finally {
+            System.out.println("In finally Block");
         }
     }
-    
+
 }
